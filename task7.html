@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:color="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Quantour</title>
+    <style>
+        div.head{
+            margin-right: auto;
+            margin-left: auto;
+            width: 100%;
+            height: 50px;
+            background-color: white;
+        }
+        a.one{
+            font-family: "Microsoft YaHei UI Light";
+            text-align: center;
+            line-height: 47px;
+            color: grey;
+            height: 47px;
+            width: 50px;
+            position: absolute;
+            top: 0px;
+            right: 550px;
+        }
+        a.two{
+            font-family: 微软雅黑;
+            text-align: center;
+            line-height: 47px;
+            color: grey;
+            width: 100px;
+            position: absolute;
+            top:0px;
+            right: 448px;
+        }
+        a.three{
+            font-family: 微软雅黑;
+            text-align: center;
+            line-height: 47px;
+            color: grey;
+            width: 100px;
+            position: absolute;
+            top:0px;
+            right: 348px;
+        }
+        a.four{
+            font-family: 微软雅黑;
+            text-align: center;
+            line-height: 47px;
+            color: grey;
+            width: 100px;
+            position: absolute;
+            top:0px;
+            right: 248px;
+        }
+        a.five{
+            font-family: 微软雅黑;
+            text-align: center;
+            line-height: 47px;
+            color: grey;
+            width: 100px;
+            position: absolute;
+            top:0px;
+            right: 148px;
+        }
+        a.six{
+            font-family: 微软雅黑;
+            text-align: center;
+            line-height: 47px;
+            color: #456789;
+            width: 148px;
+            position: absolute;
+            top:0px;
+            right: 0px;
+
+        }
+        div.firstImg{
+            width: 100%;
+            position: absolute;
+            top: 50px;
+            left: 0px;
+            background: url("img/10651683_p5.jpg");
+            background-size: 100%;
+            height: 600px;
+        }
+        div.firstImgDiv{
+            margin-top: 200px;
+            margin-bottom: 180px;
+            margin-left: 100px;
+            height: 220px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        div.firstImgDivText{
+            font-family: "Microsoft YaHei UI Light";
+            color: white;
+        }
+        a.firstImgDivDiv{
+            background-color:#6C839B;
+            border-radius: 5px;
+            color: darkgrey;
+            height: 59px;
+            width: 299px;
+            position: absolute;
+            bottom: -10px;
+            left: 0px;
+            font-family: "Microsoft YaHei UI Light";
+            font-size: 30px;
+            text-align: center;
+            line-height: 59px;
+            border-right:solid;
+            border-bottom: solid;
+        }
+        a.firstImgDivDiv:hover{
+            background-color: #456789;
+        }
+        a{
+            color: grey;
+            text-decoration: none;
+        }
+        a.one:hover{
+            color: #456789;
+            border-bottom: solid;
+        }
+        a.two:hover{
+            color: #456789;
+            border-bottom: solid;
+        }
+        a.three:hover{
+            color: #456789;
+            border-bottom: solid;
+        }
+        a.four:hover{
+            color: #456789;
+            border-bottom: solid;
+        }
+        a.five:hover{
+            color: #456789;
+            border-bottom: solid;
+        }
+
+        div.divMenu{
+            overflow: auto;
+            height: 200px;
+            width: 100%;
+            position: absolute;
+            left:0px;
+            top:700px;
+        }
+        div.divMenuSingle{
+            width: 16%;
+            height: 183px;
+            position: absolute;
+            top: 0px;
+        }
+        #menuOne{
+            left: 0;
+        }
+        #menuTwo{
+            left: 16%;
+        }
+        #menuThree{
+            left: 32%;
+        }
+        #menuFour{
+            left: 48%;
+        }
+        #menuFive{
+            left: 64%;
+        }
+        #menuSix{
+            left: 80%;
+        }
+        div.centreSingle{
+            margin-left: auto;
+            margin-right: auto;
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+            background-size: contain;
+        }
+        #centreOne{
+            background-image:url("img/QQ图片20170419200800.png");
+        }
+        #centreTwo{
+            background-image:url("img/QQ图片20170419200913.png");
+        }
+        #centreThree{
+            background-image:url("img/QQ图片20170419200836.png");
+        }
+        #centreFour{
+            background-image:url("img/QQ图片20170419200819.png");
+        }
+        #centreFive{
+            background-image:url("img/QQ图片20170419200857.png");
+        }
+        #centreSix{
+            background-image:url("img/QQ图片20170419200931.png");
+        }
+        div.divMenuText{
+            font-family: 微软雅黑;
+            color: grey;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: 43px;
+            position: absolute;
+            bottom: 0%;
+            left: 0%;
+            border-right: solid;
+        }
+        div.show{
+            margin-top: 70px;
+            width: 100%;
+            height: 1300px;
+            position: absolute;
+            left: 0px;
+        }
+        #divSingStock{
+            top: 850px;
+        }
+        #divCompareStock{
+            top: 2250px;
+        }
+        #divMarketInfo{
+            top: 3650px;
+        }
+        #divCompareRate{
+            top: 5050px;
+            height: 2200px;
+        }
+        #divTimeCompare{
+            top: 7550px;
+            height: 1700px;
+        }
+        #divRateBarChart{
+            top: 9950px;
+            height: 1700px;
+        }
+        #foot{
+            top:12350px;
+            height: 50px;
+        }
+        #footText{
+            height: 100px;
+            font-size: 20px;
+            line-height: 100px;
+        }
+        div.divText{
+            background-image: url("img/10651683_p5.jpg");
+            text-align: center;
+            font-family: "Microsoft YaHei UI Light";
+            font-size: 150%;
+            color: white;
+            left: 0px;
+            width: 100%;
+            height: 170px;
+            line-height:170px;
+        }
+        img.showImgPre{
+            margin-left: 5%;
+            margin-right: 15%;
+            margin-top: 5%;
+        }
+        img.showImgAfter{
+            float: right;
+            right: 5%;
+            margin: 5% 5% 10% 15%;
+        }
+        img.showDialouge{
+            float: right;
+            width: 40%;
+            right: 5%;
+            margin: 5% 5% 5% 15%;
+        }
+        img.showImgFinal{
+            margin-left: 5%;
+            margin-right: 15%;
+            margin-top: 0%;
+        }
+        img{
+            width: 60%;
+            box-shadow: white 10px;
+            border: solid darkblue 0.5px;
+            border-right:solid lightgrey 2px ;
+            border-bottom:solid lightgrey 2px ;
+            border-radius: 10px;
+        }
+        span.spanTextPre{
+            width: 30%;
+            line-height: 30px;
+            font-size: 15px;
+            text-align: left;
+            font-style: italic;
+            position: absolute;
+            top: 350px;
+            right: 0;
+        }
+        span.spanTextAfter{
+            width: 30%;
+            line-height: 30px;
+            font-size: 15px;
+            text-align: left;
+            font-style: italic;
+            position: absolute;
+            top: 900px;
+            left: 50px;
+        }
+        span.spanTextDialouge{
+            width: 30%;
+            line-height: 30px;
+            font-size: 15px;
+            text-align: left;
+            font-style: italic;
+            position: absolute;
+            top: 820px;
+            left: 100px;
+        }
+        span.spanTextFinal{
+            width: 30%;
+            line-height: 30px;
+            font-size: 15px;
+            text-align: left;
+            font-style: italic;
+            position: absolute;
+            top: 1420px;
+            right: 50px;
+        }
+        span.spanTextFinal2{
+            width: 30%;
+            line-height: 30px;
+            font-size: 15px;
+            text-align: left;
+            font-style: italic;
+            position: absolute;
+            top: 2070px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="head">
+    <!--     <a class="one"   href="task1.html">首页</a>
+       <a class="two"  href="task3.html"> 最新活动</a>
+        <a class="three" href="task4.html">项目介绍</a>
+        <a class="four" href="task6.html">爱心社区</a>
+        <a class="five" href="task1.html">关于我们</a>-->
+</div>
+<div class="firstImg">
+    <div class="firstImgDiv">
+        <div class="firstImgDivText">
+            <span style="    font-size: 60px;text-shadow: 2px 2px grey;">Quantour</span><br/>
+            <span style="   font-size: 20px; text-shadow: 0.5px 0.5px grey; line-height: 40px">可能是最萌的炒股软件<br/>过去已去，未来已来，敬请欣赏</span>
+        </div>
+       <a class="firstImgDivDiv" href="img/myQuantour.rar" download="myQuantour.rar"><span style="color:white">点击下载</span></a>
+    </div>
+</div>
+<div class="divMenu">
+    <div class="divMenuSingle" id="menuOne">
+        <div class="centreSingle" id="centreOne"></div>
+        <div class="divMenuText"><span style="vertical-align: bottom">单只股票查询</span><br/>
+            <span style="vertical-align: top">瞬间返回精准数据</span></div>
+    </div>
+        <div class="divMenuSingle" id="menuTwo">
+            <div class="centreSingle" id="centreTwo"></div>
+            <div class="divMenuText"><span style="vertical-align: bottom">比较两只股票</span><br/>
+                <span style="vertical-align: top">给您全面均衡的对比信息</span></div>
+            </div>
+            <div class="divMenuSingle" id="menuThree">
+            <div class="centreSingle" id="centreThree"></div>
+                <div class="divMenuText"><span style="vertical-align: bottom">每日大盘信息</span><br/>
+                    <span style="vertical-align: top">优异股票一网打尽</span></div>
+            </div>
+                <div class="divMenuSingle" id="menuFour">
+                    <div class="centreSingle" id="centreFour"></div>
+                    <div class="divMenuText"><span style="vertical-align: bottom">收益率比较</span><br/>
+                        <span style="vertical-align: top">两种策略 直观对比</span></div>
+                    </div>
+    <div class="divMenuSingle" id="menuFive">
+        <div class="centreSingle" id="centreFive"></div>
+        <div class="divMenuText"><span style="vertical-align: bottom">形成/持有期关系图</span><br/>
+            <span style="vertical-align: top">显示最佳买卖时机</span></div>
+    </div>
+    <div class="divMenuSingle" id="menuSix">
+        <div class="centreSingle" id="centreSix"></div>
+        <div class="divMenuText"><span style="vertical-align: bottom">收益率直方图</span><br/>
+            <span style="vertical-align: top"></span></div>
+    </div>
+
+</div>
+<div id="divSingStock" class="show">
+    <div class="divText">单只股票查询 &nbsp;&nbsp;比快更快</div>
+        <img class="showImgPre" src="img/单只股票查询.png" >
+        <span class="spanTextPre">
+            输入股票编号，即可查询。<br>例如:1
+        </span>
+        <img class="showImgAfter" src="img/单只股票查询2.png">
+            <span class="spanTextAfter">
+            界面上将为您显示该支股票的K线图和成交量图<br>鼠标悬停在图上便可以查看精确数据
+        </span>
+</div>
+<div id="divCompareStock" class="show">
+    <div class="divText">比较两只股票 &nbsp;&nbsp;全面均衡对比</div>
+    <img class="showImgPre" src="img/compareStock1.png" >
+            <span class="spanTextPre">
+           分别 输入两只股票的编号或名称、开始时间、结束时间，即可查询。<br>例如:1、2、2005-4-1、2005-5-18
+        </span>
+    <img class="showImgAfter" src="img/compareStock2.png">
+                <span class="spanTextAfter">
+          界面上将为您显示两只股票的信息对比<br>您可以选择查看最低价、最高价、涨跌幅、对数收益率、收盘价、对数收益率方差
+        </span>
+</div>
+<div id="divMarketInfo" class="show">
+    <div class="divText">大盘信息 &nbsp;&nbsp;优异股票一网打尽</div>
+    <img class="showImgPre" src="img/marketInfo1.png" >
+    <span class="spanTextPre">
+          要查看大盘信息，请输入您要查看的日期<br>例如:2014-4-2
+        </span>
+    <img class="showImgAfter" src="img/marketInfo2.png">
+                    <span class="spanTextAfter">
+          界面上将为您显示当天的各类信息<br>包括：成交量、股票涨停信息、股票跌停信息、<br>
+                        开盘-收盘*5%小于上一日收盘、<br>开盘-收盘*-5%小于上一日收盘
+        </span>
+</div>
+<div id="divCompareRate" class="show">
+    <div class="divText">收益率比较&nbsp;&nbsp;两种策略 直观对比</div>
+    <img class="showImgPre" src="img/compareRate1.png" >
+        <span class="spanTextPre">
+          要查看两种策略的收益率比较，请输入：<br>形成期、持有期、开始时间、结束时间<br>
+            例如:10、20、2013-4-16、2014-4-10
+        </span>
+    <img class="showDialouge" src="img/compareRate2.png">
+        <span class="spanTextDialouge">
+          点击选择股票后，在弹出的对话框中选择您要分析的股票<br>
+            例如：主板（将为您自动选中所有主板股票，您也可以单独选择要分析的股票）
+        </span>
+    <img class="showImgFinal" src="img/compareRate3.png" >
+            <span class="spanTextFinal">
+          界面上将显示这段时间内、这些股票的收益率折线图
+                <br>例如：动量策略
+        </span>
+    <img class="showImgAfter" src="img/compareRate4.png" >
+            <span class="spanTextFinal2">
+          界面上将显示这段时间内、这些股票的收益率折线图
+                <br>例如：均值回归
+        </span>
+</div>
+<div id="divTimeCompare" class="show">
+    <div class="divText">形成/持有期关系图&nbsp;&nbsp;显示最佳买卖时期</div>
+    <img class="showImgPre" src="img/timeCompare1.png" >
+            <span class="spanTextPre">
+          要查看两种策略的形成/持有期关系，请输入：<br>形成期或持有期（点击箭头交换）、
+                <br>开始时间、结束时间<br>
+            例如:10、20、2013-4-17、2014-4-16
+        </span>
+    <img class="showDialouge" src="img/timeCompare2.png">
+            <span class="spanTextDialouge">
+          点击选择股票后，在弹出的对话框中选择您要分析的股票<br>
+            例如：主板（将为您自动选中所有主板股票，您也可以单独选择要分析的股票）
+        </span>
+    <img class="showImgFinal" src="img/timeCompare3.png" >
+                <span class="spanTextFinal">
+          界面上将显示这段时间内、这些股票的超额收益率和策略胜率
+                <br>例如：动量策略
+        </span>
+    <img class="showImgAfter" src="img/timeCompare4.png" >
+                <span class="spanTextFinal2">
+          界面上将显示这段时间内、这些股票的收益率折线图
+                <br>例如：均值回归
+        </span>
+</div>
+<div id="divRateBarChart" class="show">
+    <div class="divText">收益率直方图&nbsp;&nbsp;</div>
+    <img class="showImgPre" src="img/rateBarChart1.png" >
+                <span class="spanTextPre">
+          要查看两种策略的收益率直方图，请输入：<br>形成期、持有期、开始时间、结束时间<br>
+            例如:10、20、2013-4-25、2014-4-29
+        </span>
+    <img class="showDialouge" src="img/rateBarChart2.png">
+                <span class="spanTextDialouge">
+          点击选择股票后，在弹出的对话框中选择您要分析的股票<br>
+            例如：全部股票（将为您自动选中所有股票，您也可以单独选择要分析的股票）
+        </span>
+    <img class="showImgFinal" src="img/rateBarChart3.png" >
+                    <span class="spanTextFinal">
+          界面上将显示这段时间内、这些股票的相对指数收益分布图
+                <br>例如：动量策略
+        </span>
+    <img class="showImgAfter" src="img/rateBarChart4.png" >
+            <span class="spanTextFinal2">
+          界面上将显示这段时间内、这些股票的相对指数收益分布图
+                <br>例如：均值回归
+        </span>
+</div>
+<div id="foot" class="show">
+    <div class="divText" id="footText">All Rights Reserved.2017/4/19.*ST软工三重修交流中心</div>
+</div>
+</body>
+</html>
