@@ -227,18 +227,18 @@
         }
         #divCompareRate{
             top: 5050px;
-            height: 1700px;
+            height: 2200px;
         }
         #divTimeCompare{
-            top: 6850px;
+            top: 7550px;
             height: 1700px;
         }
         #divRateBarChart{
-            top: 8650px;
+            top: 9850px;
             height: 1700px;
         }
         #foot{
-            top:10450px;
+            top:12350px;
             height: 50px;
         }
         #footText{
@@ -323,8 +323,18 @@
             text-align: left;
             font-style: italic;
             position: absolute;
-            top: 1020px;
-            right: 100px;
+            top: 1220px;
+            right: 50px;
+        }
+        span.spanTextFinal2{
+            width: 30%;
+            line-height: 30px;
+            font-size: 15px;
+            text-align: left;
+            font-style: italic;
+            position: absolute;
+            top: 1770px;
+            left: 50px;
         }
     </style>
 </head>
@@ -427,19 +437,59 @@
     <img class="showImgFinal" src="img/compareRate3.png" >
             <span class="spanTextFinal">
           界面上将显示这段时间内、这些股票的收益率折线图
+                <br>例如：动量策略
+        </span>
+    <img class="showImgAfter" src="img/compareRate4.png" >
+            <span class="spanTextFinal2">
+          界面上将显示这段时间内、这些股票的收益率折线图
+                <br>例如：均值回归
         </span>
 </div>
 <div id="divTimeCompare" class="show">
     <div class="divText">形成/持有期关系图&nbsp;&nbsp;显示最佳买卖时期</div>
     <img class="showImgPre" src="img/timeCompare1.png" >
+            <span class="spanTextPre">
+          要查看两种策略的形成/持有期关系，请输入：<br>形成期或持有期（点击箭头交换）、
+                <br>开始时间、结束时间<br>
+            例如:10、20、2013-4-17、2014-4-16
+        </span>
     <img class="showDialouge" src="img/timeCompare2.png">
+            <span class="spanTextDialouge">
+          点击选择股票后，在弹出的对话框中选择您要分析的股票<br>
+            例如：主板（将为您自动选中所有主板股票，您也可以单独选择要分析的股票）
+        </span>
     <img class="showImgFinal" src="img/timeCompare3.png" >
+                <span class="spanTextFinal">
+          界面上将显示这段时间内、这些股票的超额收益率和策略胜率
+                <br>例如：动量策略
+        </span>
+                <span class="spanTextFinal2">
+          界面上将显示这段时间内、这些股票的收益率折线图
+                <br>例如：均值回归
+        </span>
 </div>
 <div id="divRateBarChart" class="show">
     <div class="divText">收益率直方图&nbsp;&nbsp;</div>
     <img class="showImgPre" src="img/rateBarChart1.png" >
+                <span class="spanTextPre">
+          要查看两种策略的收益率直方图，请输入：<br>形成期、持有期、开始时间、结束时间<br>
+            例如:10、20、2013-4-25、2014-4-29
+        </span>
     <img class="showDialouge" src="img/rateBarChart2.png">
+                <span class="spanTextDialouge">
+          点击选择股票后，在弹出的对话框中选择您要分析的股票<br>
+            例如：全部股票（将为您自动选中所有股票，您也可以单独选择要分析的股票）
+        </span>
     <img class="showImgFinal" src="img/rateBarChart3.png" >
+                    <span class="spanTextFinal">
+          界面上将显示这段时间内、这些股票的相对指数收益分布图
+                <br>例如：动量策略
+        </span>
+    <img class="showImgAfter" src="img/rateBarChart4.png" >
+            <span class="spanTextFinal2">
+          界面上将显示这段时间内、这些股票的相对指数收益分布图
+                <br>例如：均值回归
+        </span>
 </div>
 <div id="foot" class="show">
     <div class="divText" id="footText">All Rights Reserved.2017/4/19.*ST软工三重修交流中心</div>
